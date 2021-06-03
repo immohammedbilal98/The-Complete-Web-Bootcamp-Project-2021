@@ -1,0 +1,47 @@
+body {
+  background-color: #f54748;
+  margin: 0px;
+  padding: 0px;
+}
+
+#cover-pic {
+  margin-top: 24px;
+}
+
+#title {
+  font-family: "Courgette", cursive;
+}
+
+#para {
+  font-family: "Cutive Mono", monospace;
+}
+
+.twister {
+  width: 300px;
+  border-style: solid;
+}
+
+.zinger-burger {
+  width: 300px;
+  border-style: solid;
+}
+
+header {
+  overflow: hidden;
+  background-color: #36aae3;
+  color: azure;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-size: xx-large;
+  padding-bottom: 6px;
+}
+
+.project {
+  padding-top: 56px;
+}
+
+footer {
+  background-color: #a7bbc7;
+  margin-top: 41px;
+}
