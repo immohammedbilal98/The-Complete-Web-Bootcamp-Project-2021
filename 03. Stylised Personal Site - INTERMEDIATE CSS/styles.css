@@ -1,0 +1,75 @@
+/* DEFAULT */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* TOP CONTAINER */
+
+/* .top-container {
+  position: absolute;
+}
+
+.cover_img {
+  width: 1349px;
+  height: 663px;
+}
+.my_name {
+  position: relative;
+  bottom: 550px;
+  left: 600px;
+  color: aliceblue;
+}
+
+.nav-bar {
+  position: relative;
+  bottom: 645px;
+  left: 1000px;
+}
+
+h3 {
+  display: inline;
+  padding-right: 83px;
+  color: rgb(255, 255, 255);
+}
+
+/* MIDDLE CONTAINER */
+
+/* .bottom-container {
+  position: relative;
+  background-color: #002e46;
+  width: 1349px;
+  height: 500px;
+  top: 1000px;
+}  */
+
+/* ====================================================== */
+
+/* TOP CONTAINER */
+
+.cover-img {
+  width: 1349px;
+  height: 663px;
+}
+
+.navbar-expand-lg {
+  left: 1120px;
+}
+
+.my-name {
+  position: absolute;
+  bottom: 370px;
+  left: 590px;
+  text-align: center;
+}
+
+/* MIDDLE CONTAINER */
+
+.profile {
+  text-align: center;
+}
+
+.para-about {
+  text-align: left;
+  padding-left: 362px;
+}

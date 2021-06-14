@@ -17,31 +17,41 @@ body {
 }
 
 .twister {
+  background-color: aliceblue;
   width: 300px;
   border-style: solid;
+  border-radius: 15px;
 }
 
 .zinger-burger {
+  background-color: aliceblue;
   width: 300px;
   border-style: solid;
-}
-
-header {
-  overflow: hidden;
-  background-color: #36aae3;
-  color: azure;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  font-size: xx-large;
-  padding-bottom: 6px;
+  border-radius: 15px;
 }
 
 .project {
-  padding-top: 56px;
+  padding-top: 26px;
 }
 
 footer {
   background-color: #a7bbc7;
-  margin-top: 41px;
+  margin-top: 68px;
+}
+
+@media (max-width: 360px) {
+  #cover-pic {
+    width: 233px;
+  }
+
+  #para {
+    width: 266px;
+    font-family: "Cutive Mono";
+    font-family: monospace;
+  }
+
+  .twister,
+  .zinger-burger {
+    width: 250px;
+  }
 }

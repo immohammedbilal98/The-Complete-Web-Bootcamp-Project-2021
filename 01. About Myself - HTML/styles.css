@@ -3,17 +3,6 @@ body {
   padding: 0px;
 }
 
-header {
-  overflow: hidden;
-  background-color: #36aae3;
-  color: azure;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  font-size: xx-large;
-  padding-bottom: 6px;
-}
-
 .main {
   padding: 17px;
   margin-top: 31px;

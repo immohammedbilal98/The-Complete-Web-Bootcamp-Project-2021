@@ -12,7 +12,7 @@ body {
 
 .container-fluid {
   padding: 1% 2%;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .navbar {
@@ -32,6 +32,10 @@ body {
   padding-left: 989px;
   padding-bottom: 0px;
   position: absolute;
+}
+
+#iphone-size {
+  width: 335px;
 }
 
 .three-card {
@@ -121,7 +125,7 @@ body {
 
 /* MEDIA QUERY */
 
-@media (max-width: 640px) {
+/* @media (max-width: 360px) {
   .three-card {
     flex-direction: column;
     margin-left: 48px;
@@ -156,5 +160,61 @@ body {
     position: static;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+} */
+
+@media (max-width: 360px) {
+  .navbar-dark .navbar-toggler {
+    margin-left: 119px;
+  }
+
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .iphone-pic {
+    position: relative;
+    right: 956px;
+  }
+
+  #iphone-size {
+    width: 308px;
+  }
+
+  .three-card {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -30px;
+    margin-top: 71px;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .col-sm {
+    margin-bottom: 32px;
+  }
+
+  #features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .four-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 9px;
+    flex-direction: column;
+  }
+
+  .col {
+    margin-bottom: 15px;
   }
 }
