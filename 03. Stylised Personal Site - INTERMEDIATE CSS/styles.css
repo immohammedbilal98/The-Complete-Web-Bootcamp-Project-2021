@@ -1,7 +1,8 @@
 /* DEFAULT */
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
 }
 
 /* TOP CONTAINER */
@@ -56,11 +57,10 @@ h3 {
   left: 1120px;
 }
 
-.my-name {
+.quotes {
   position: absolute;
-  bottom: 370px;
-  left: 590px;
-  text-align: center;
+  bottom: 340px;
+  left: 403px;
 }
 
 /* MIDDLE CONTAINER */
@@ -72,4 +72,63 @@ h3 {
 .para-about {
   text-align: left;
   padding-left: 362px;
+}
+
+.develop-para,
+.design-para,
+.photography-para {
+  padding-top: 150px;
+}
+
+.contact-me {
+  background-color: lightblue;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    left: 0px;
+  }
+
+  .container-fluid .top-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .cover-img {
+    height: 663px;
+    width: 433px;
+  }
+
+  .para-about {
+    padding-left: 0px;
+  }
+  .quotes {
+    position: absolute;
+    bottom: 650px;
+    left: 0px;
+  }
+
+  .navbar-toggler {
+    margin-left: 165px;
+  }
+
+  .dev-pic {
+    width: 200%;
+  }
+  .design-pic {
+    width: 200%;
+  }
+  .pho-pic {
+    width: 216%;
+  }
+
+  .develop-para {
+    position: relative;
+    top: 57px;
+    right: 79px;
+  }
 }
