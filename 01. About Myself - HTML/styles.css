@@ -7,3 +7,12 @@ body {
   padding: 17px;
   margin-top: 31px;
 }
+
+.footer {
+  margin-bottom: 17px;
+}
+
+.octicon {
+  position: relative;
+  top: 5px;
+}
