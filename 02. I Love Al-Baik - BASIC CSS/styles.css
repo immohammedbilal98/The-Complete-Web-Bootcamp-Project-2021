@@ -36,10 +36,17 @@ body {
 
 footer {
   background-color: #a7bbc7;
-  margin-top: 68px;
+  margin-top: 44px;
+  padding-bottom: 12px;
+  padding-top: 5px;
 }
 
-@media (max-width: 360px) {
+.octicon {
+  position: relative;
+  top: 5px;
+}
+
+/* @media (max-width: 360px) {
   #cover-pic {
     width: 233px;
   }
@@ -54,4 +61,4 @@ footer {
   .zinger-burger {
     width: 250px;
   }
-}
+} */
