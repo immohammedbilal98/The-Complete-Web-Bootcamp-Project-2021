@@ -216,3 +216,8 @@ body {
     margin-right: 0px;
   }
 }
+
+.octicon {
+  position: relative;
+  top: -2px;
+}
