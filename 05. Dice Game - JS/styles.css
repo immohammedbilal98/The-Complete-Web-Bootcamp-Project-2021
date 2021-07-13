@@ -60,11 +60,20 @@ img {
 }
 
 footer {
-  margin-top: 1%;
+  margin-top: 60px;
   color: #eeeeee;
   text-align: center;
   font-family: cursive;
   font-size: 18px;
+  background: #1e62d0;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-bottom: 8px;
+}
+
+.octicon {
+  position: relative;
+  top: 4px;
 }
 
 @media (max-width: 360px) {
